@@ -1,6 +1,6 @@
 
 # SDK使用指南
-
+# 注意: Windows 2008R2 下部署, IIS_IUser 是没有权限访问证书的, 所以GetRequestStream 这句会报 The request was aborted: Could not create SSL/TLS secure channel. 解决办法是 修改应用程序池的  标识  为 networkservice
 ---
 ## C \#
 ### 添加依赖包
